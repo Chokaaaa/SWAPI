@@ -11,6 +11,19 @@
 		84DF36432A9C9312001EA80B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF36422A9C9312001EA80B /* ContentView.swift */; };
 		84DF36452A9C9314001EA80B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DF36442A9C9314001EA80B /* Assets.xcassets */; };
 		84DF36482A9C9314001EA80B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DF36472A9C9314001EA80B /* Preview Assets.xcassets */; };
+		84DF36512A9C93E7001EA80B /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF36502A9C93E7001EA80B /* Character.swift */; };
+		84DF365B2A9CFD29001EA80B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF365A2A9CFD29001EA80B /* Home.swift */; };
+		84DF36602A9D3184001EA80B /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF365F2A9D3184001EA80B /* HomeViewModel.swift */; };
+		84DF36622A9F51F5001EA80B /* PickerSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF36612A9F51F5001EA80B /* PickerSelection.swift */; };
+		84DF36642A9F52FC001EA80B /* SpaceShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF36632A9F52FC001EA80B /* SpaceShip.swift */; };
+		84DF36662A9FB877001EA80B /* Planets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF36652A9FB877001EA80B /* Planets.swift */; };
+		84DF36682AA08573001EA80B /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF36672AA08573001EA80B /* PickerView.swift */; };
+		84DF366B2AA089C4001EA80B /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 84DF366A2AA089C4001EA80B /* Realm */; };
+		84DF366D2AA089C4001EA80B /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 84DF366C2AA089C4001EA80B /* RealmSwift */; };
+		84DF366F2AA08A99001EA80B /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF366E2AA08A99001EA80B /* FavoritesView.swift */; };
+		84DF36732AA08AED001EA80B /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF36722AA08AED001EA80B /* Favorite.swift */; };
+		84DF36762AA08DAC001EA80B /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF36752AA08DAC001EA80B /* RealmManager.swift */; };
+		84DF367B2AA50EF9001EA80B /* FavoritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF367A2AA50EF9001EA80B /* FavoritesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +32,17 @@
 		84DF36422A9C9312001EA80B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		84DF36442A9C9314001EA80B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84DF36472A9C9314001EA80B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84DF36502A9C93E7001EA80B /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		84DF365A2A9CFD29001EA80B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		84DF365F2A9D3184001EA80B /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		84DF36612A9F51F5001EA80B /* PickerSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerSelection.swift; sourceTree = "<group>"; };
+		84DF36632A9F52FC001EA80B /* SpaceShip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceShip.swift; sourceTree = "<group>"; };
+		84DF36652A9FB877001EA80B /* Planets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planets.swift; sourceTree = "<group>"; };
+		84DF36672AA08573001EA80B /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		84DF366E2AA08A99001EA80B /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		84DF36722AA08AED001EA80B /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
+		84DF36752AA08DAC001EA80B /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		84DF367A2AA50EF9001EA80B /* FavoritesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +50,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84DF366D2AA089C4001EA80B /* RealmSwift in Frameworks */,
+				84DF366B2AA089C4001EA80B /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +77,11 @@
 		84DF363F2A9C9312001EA80B /* SWapiMontekrist */ = {
 			isa = PBXGroup;
 			children = (
+				84DF364F2A9C93C4001EA80B /* View */,
+				84DF36522A9CA06D001EA80B /* ViewModel */,
+				84DF364E2A9C93BF001EA80B /* Models */,
+				84DF36742AA08D9C001EA80B /* Utility */,
 				84DF36402A9C9312001EA80B /* SWapiMontekristApp.swift */,
-				84DF36422A9C9312001EA80B /* ContentView.swift */,
 				84DF36442A9C9314001EA80B /* Assets.xcassets */,
 				84DF36462A9C9314001EA80B /* Preview Content */,
 			);
@@ -65,6 +94,46 @@
 				84DF36472A9C9314001EA80B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84DF364E2A9C93BF001EA80B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84DF36612A9F51F5001EA80B /* PickerSelection.swift */,
+				84DF36502A9C93E7001EA80B /* Character.swift */,
+				84DF36632A9F52FC001EA80B /* SpaceShip.swift */,
+				84DF36652A9FB877001EA80B /* Planets.swift */,
+				84DF36722AA08AED001EA80B /* Favorite.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84DF364F2A9C93C4001EA80B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84DF36422A9C9312001EA80B /* ContentView.swift */,
+				84DF365A2A9CFD29001EA80B /* Home.swift */,
+				84DF36672AA08573001EA80B /* PickerView.swift */,
+				84DF366E2AA08A99001EA80B /* FavoritesView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84DF36522A9CA06D001EA80B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				84DF365F2A9D3184001EA80B /* HomeViewModel.swift */,
+				84DF367A2AA50EF9001EA80B /* FavoritesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		84DF36742AA08D9C001EA80B /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				84DF36752AA08DAC001EA80B /* RealmManager.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +152,10 @@
 			dependencies = (
 			);
 			name = SWapiMontekrist;
+			packageProductDependencies = (
+				84DF366A2AA089C4001EA80B /* Realm */,
+				84DF366C2AA089C4001EA80B /* RealmSwift */,
+			);
 			productName = SWapiMontekrist;
 			productReference = 84DF363D2A9C9312001EA80B /* SWapiMontekrist.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +184,9 @@
 				Base,
 			);
 			mainGroup = 84DF36342A9C9312001EA80B;
+			packageReferences = (
+				84DF36692AA089C4001EA80B /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 84DF363E2A9C9312001EA80B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +213,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84DF366F2AA08A99001EA80B /* FavoritesView.swift in Sources */,
+				84DF36662A9FB877001EA80B /* Planets.swift in Sources */,
+				84DF36512A9C93E7001EA80B /* Character.swift in Sources */,
+				84DF36682AA08573001EA80B /* PickerView.swift in Sources */,
+				84DF36602A9D3184001EA80B /* HomeViewModel.swift in Sources */,
+				84DF36762AA08DAC001EA80B /* RealmManager.swift in Sources */,
+				84DF36622A9F51F5001EA80B /* PickerSelection.swift in Sources */,
+				84DF36732AA08AED001EA80B /* Favorite.swift in Sources */,
 				84DF36432A9C9312001EA80B /* ContentView.swift in Sources */,
+				84DF36642A9F52FC001EA80B /* SpaceShip.swift in Sources */,
+				84DF365B2A9CFD29001EA80B /* Home.swift in Sources */,
 				84DF36412A9C9312001EA80B /* SWapiMontekristApp.swift in Sources */,
+				84DF367B2AA50EF9001EA80B /* FavoritesViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +426,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		84DF36692AA089C4001EA80B /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		84DF366A2AA089C4001EA80B /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84DF36692AA089C4001EA80B /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		84DF366C2AA089C4001EA80B /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84DF36692AA089C4001EA80B /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 84DF36352A9C9312001EA80B /* Project object */;
 }
