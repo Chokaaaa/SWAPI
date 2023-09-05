@@ -12,3 +12,19 @@ This application has been created with MVVM architecture (ModelView-View-Model) 
 &#8226; ModelView is responsible for a business logic between Model and the view trough the NSURLSession.
 
 # Features
+&#8226; Search Textfield created by .searchable modifier
+
+&#8226; Bottom bar (TabView)
+![Simulator Screenshot - iPhone 14 Pro - 2023-09-05 at 16 19 19](https://github.com/Chokaaaa/SWAPI/assets/52541467/3211f528-d515-4709-8949-ce964a9553c1)
+
+&#8226; Picker with .segmented modifier
+
+
+&#8226; NSURLSession request with a JSONDecoder response
+&#8226; CRUD functionality with Realm
+&#8226; EnvironmentObject applied so realm objects when they are saved can be accessed all over the app
+
+# Requirements
+&#8226; Minimum Deployment version IOS 16.4
+&#8226; Supported XCode version 14.3
+
